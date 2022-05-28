@@ -5,8 +5,9 @@ npm init -y
 # INSTALAR SUITE DE PRUEBAS JAVASCRIPT JEST
 npm i -D jest
 
-echo "yes,no,node,v8,yes"
+#echo "yes,no,yes y node,v8,yes"
 # CONFIGURAR JEST
 npx jest --init
-echo "Ready"
+echo "Comando para testing"
+echo -e "\tnpm run test"
 exit 0;
