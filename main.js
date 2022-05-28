@@ -21,6 +21,7 @@ function myFunction( someNumber ){
 } // myFunction
 
 
-// exportar myFunction
+// exportar
 module.exports = myFunction;
+//module.exports = { myFunction, anotherFunction };
 
