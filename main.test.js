@@ -10,4 +10,22 @@ test('testCaso1', () => {
 	expect(expected).toBe(result);
 })
 
+test('testCaso3', () => {
+	const expected = 'fizz';
+	const result = myFunction(3);
+	expect(expected).toBe(result);
+})
+
+test('testCaso5', () => {
+	const expected = 'buzz';
+	const result = myFunction(5);
+	expect(expected).toBe(result);
+})
+
+test('testCaso15', () => {
+	const expected = 'fizzbuzz';
+	const result = myFunction(15);
+	expect(expected).toBe(result);
+})
+
 }) // describe
