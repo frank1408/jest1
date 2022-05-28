@@ -1,6 +1,14 @@
 
 function myFunction( someNumber ){
 	// fizzbuzz
+	if( isNaN(someNumber) ){
+		return -1;
+	} // es distinto a un numero
+
+	if( someNumber === 0 ){
+		return 0;
+	} // es multiplo de 3
+
 	if( (someNumber % 3 === 0) && (someNumber % 5 === 0) ){
 		return "fizzbuzz";
 	} // es multiplo de 3 y 5
