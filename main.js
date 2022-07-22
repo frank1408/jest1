@@ -7,7 +7,7 @@ function myFunction( someNumber ){
 
 	if( someNumber === 0 ){
 		return 0;
-	} // es multiplo de 3
+	}
 
 	if( (someNumber % 3 === 0) && (someNumber % 5 === 0) ){
 		return "fizzbuzz";
@@ -29,7 +29,8 @@ function myFunction( someNumber ){
 } // myFunction
 
 
-// exportar
+// exportar 1 modulo
 module.exports = myFunction;
+// exportar >1 modulo
 //module.exports = { myFunction, anotherFunction };
 
